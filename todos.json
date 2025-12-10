@@ -1,0 +1,40 @@
+{
+    "todos": [
+        {
+            "id": 1,
+            "title": "Complete Assignment 7",
+            "description": "Finish the coding assignment for the web development course.",
+            "status": "in-progress"
+        },
+        {
+            "id": 2,
+            "title": "Review PR #42",
+            "description": "Go through the pull request and provide feedback.",
+            "status": "pending"
+        },
+        {
+            "id": 3,
+            "title": "Update Documentation",
+            "description": "Add recent changes to the project documentation.",
+            "status": "completed"
+        },
+        {
+            "id": 4,
+            "title": "Team Meeting",
+            "description": "Discuss project milestones and next steps.",
+            "status": "scheduled"
+        },
+        {
+            "id": 5,
+            "title": "Code Refactoring",
+            "description": "Improve code structure and readability.",
+            "status": "in-progress"
+        },
+        {
+            "id": 6,
+            "title": "Bug Fixing",
+            "description": "Resolve reported bugs from the last testing phase.",
+            "status": "pending"
+        }
+    ]
+}
