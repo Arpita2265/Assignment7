@@ -8,7 +8,7 @@ const PORT = 3500;
 
 app.use(express.json());
 
-// Root endpoint
+
 
 app.get('/', (req, res) => {
   res.status(200).send('<h1>Welcome to the To-Do List API</h1> <a href="/todos " style="text-decoration: none; color: black; background-color: #a1e0e7ff; padding: 10px 20px; border-radius: 5px;">TODOS</a>');
@@ -155,3 +155,4 @@ app.delete('/todos/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Runs at http://localhost:${PORT}`);
 })
+
